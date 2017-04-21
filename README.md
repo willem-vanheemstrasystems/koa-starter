@@ -1,5 +1,32 @@
 Tutorial at http://evilmousestudios.com/casting-off-with-shipit/
 
+# SSH access
+
+Generate an SSH Key (see https://confluence.atlassian.com/bitbucketserver/creating-ssh-keys-776639788.html)
+
+Replace 'your_email' with your username for this server (e.g. Willem).
+Replace 'example.com' with your server name or IP address (e.g. localhost or 127.0.0.1).
+
+When prompted make sure NOT to create a passphrase! 
+
+Windows:
+
+```javascript
+cd %userprofile%/.ssh
+ssh-keygen -t rsa -C "your_email@example.com"
+```
+
+Linux & Mac OS X:
+
+```javascript
+cd ~/.ssh
+ssh-keygen -t rsa -C "your_email@example.com"
+```
+
+When prompted choose a name for the key, e.g. 'shipit'.
+
+Use the username (e.g. Willem) and server name (e.g. 127.0.0.1) in the config.json file.
+
 # :koala: koa-starter
 A starter kit for a slightly opinionated [Koa](http://koajs.com/) project.
 
