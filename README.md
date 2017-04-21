@@ -27,6 +27,8 @@ When prompted choose a name for the key, e.g. 'shipit'.
 
 Use the username (e.g. Willem) and server name (e.g. 127.0.0.1) in the config.json file.
 
+Public and private keys are created together. Public keys reside on the remote server, while private keys reside on your local computer or server. When you attempt to log in to the remote server (with your private key, so the key without the 'pub' extension), SSH compares the public and private keys. If they match, SSH will allow you to log in.
+
 # :koala: koa-starter
 A starter kit for a slightly opinionated [Koa](http://koajs.com/) project.
 
