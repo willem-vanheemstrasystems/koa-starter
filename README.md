@@ -1,3 +1,5 @@
+Tutorial at http://evilmousestudios.com/casting-off-with-shipit/
+
 # :koala: koa-starter
 A starter kit for a slightly opinionated [Koa](http://koajs.com/) project.
 
